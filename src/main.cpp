@@ -1,12 +1,12 @@
 
 #include <stdio.h>
 #include <stdint.h>
+//
+//#include <SDL2/SDL.h>
+//#include <SDL2/SDL_thread.h>
+//#include <SDL2/SDL_image.h>
 
-#include <SDL2/SDL.h>
-#include <SDL2/SDL_thread.h>
-#include <SDL2/SDL_image.h>
-
-#include <main.h>
+//#include <main.h>
 #include <assert.h>
 
 #include <iostream>
@@ -25,6 +25,7 @@
 
 #include <time.h>
 #include <stdlib.h>
+#include <cstring>
 
 union Instruction {
 	uint32_t data;
